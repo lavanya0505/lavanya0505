@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Lavanya%20Madan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Building%20Agentic%20AI%20%26%20LLM%20Systems&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://linkedin.com/in/lavanya-madaan-407237268">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=650&lines=Turning+Ideas+Into+Real+AI+Products;Building+Multi-Agent+Systems+%26+RAG+Pipelines;LangChain+%7C+LangGraph+%7C+FastAPI+%7C+AWS+Bedrock;Artificial Intelligence +Engineering+%2B+Production+ML" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=650&lines=Turning+Ideas+Into+Real+AI+Products;Building+Multi-Agent+Systems+%26+RAG+Pipelines;LangChain+%7C+LangGraph+%7C+FastAPI+%7C+AWS+Bedrock;Model+Evaluation+%2B+Production+ML+Systems" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -35,8 +35,8 @@ class AIEngineer:
         print("Let's build something intelligent together 🚀")
 ```
 
-- 🚀 AI/ML Engineer building **GenAI-assisted workflow automation** and multi-stage AI verification pipelines in production
-- 🧠 Deep focus on **Agentic AI** — multi-agent orchestration, RAG, LLM evaluation harnesses, and prompt engineering as production artifacts
+- 🚀 AI/ML Engineer building **production ML pipelines** — data processing, model integration, evaluation, and deployment end-to-end
+- 🧠 Deep focus on **Agentic AI systems** — multi-agent orchestration, RAG architectures, and rigorous LLM evaluation/benchmarking harnesses
 - ☁️ Experience with **AWS Bedrock**, vector databases, and agentic RAG workflows for enterprise document intelligence
 - 📈 Improved LLM output matching accuracy by **40%** and cut retrieval latency to **<300ms** with a **25%** quality lift
 - ✍️ Co-author on a research manuscript on AI-powered gesture recognition (under review)
