@@ -210,6 +210,33 @@ End-to-end **Punjabi ASR system** fine-tuning XLSR for low-resource language spe
 
 <br/>
 
+## 🧩 LeetCode — 1000+ Problems Solved 🔥
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=700&color=FFA116&center=true&vCenter=true&width=550&lines=1000%2B+Problems+Solved+%F0%9F%92%AA;RMO+%26+INMO+Qualifier+%F0%9F%8F%86;Consistent+Daily+Grinder+%F0%9F%94%A5" alt="LeetCode Typing"/>
+
+<br/><br/>
+
+[![LeetCode Stats](https://leetcode-stats-card.vercel.app/api?username=lavieee2206&theme=dark&border=true&background=0D1117&border_color=FFA116)](https://leetcode.com/u/lavieee2206)
+
+<br/>
+
+<a href="https://leetcode.com/u/lavieee2206">
+  <img src="https://leetcard.jacoblin.cool/lavieee2206?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Heatmap"/>
+</a>
+
+<br/><br/>
+
+[![Problems Solved](https://img.shields.io/badge/Solved-1000%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/lavieee2206)
+[![RMO](https://img.shields.io/badge/RMO-Qualified-8E2DE2?style=for-the-badge&logo=abstract)](https://leetcode.com/u/lavieee2206)
+[![INMO](https://img.shields.io/badge/INMO-Qualified-4A00E0?style=for-the-badge&logo=abstract)](https://leetcode.com/u/lavieee2206)
+[![Consistency](https://img.shields.io/badge/Daily_Grinder-🔥-critical?style=for-the-badge)](https://leetcode.com/u/lavieee2206)
+
+</div>
+
+<br/>
+
 ## 📊 GitHub Stats
 
 <div align="center">
