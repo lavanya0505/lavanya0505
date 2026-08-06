@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Lavanya%20Madan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Engineer%20%7C%20Building%20Agentic%20AI%20%26%20LLM%20Systems&descAlignY=55&descSize=18" width="100%"/>
+<img src="./profile.jpg" width="150" height="150" style="border-radius: 50%;" alt="Lavanya Madan" />
 
-<a href="https://linkedin.com/in/lavanya-madaan-407237268">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=650&lines=Turning+Ideas+Into+Real+AI+Products;Building+Multi-Agent+Systems+%26+RAG+Pipelines;LangChain+%7C+LangGraph+%7C+FastAPI+%7C+AWS+Bedrock;Model+Evaluation+%2B+Production+ML+Systems" alt="Typing SVG" />
-</a>
+# Hi, I'm Lavanya Madan 👋
 
-<br/>
+### AI/ML Engineer • Agentic AI & RAG Systems • Turning ideas into production-grade AI products
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=650&lines=Building+Multi-Agent+AI+Systems;Designing+RAG+%26+LangGraph+Pipelines;Shipping+LLM+Products+to+Production;900%2B+LeetCode+%7C+RMO+%26+INMO+Qualifier)](https://linkedin.com/in/lavanya-madaan-407237268)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lavanya-madaan-407237268)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lavieee2206@gmail.com)
@@ -16,7 +16,7 @@
 
 </div>
 
-<br/>
+---
 
 ## 👩‍💻 About Me
 
@@ -31,6 +31,9 @@ class AIEngineer:
 
     def say_hi(self):
         print("Let's build something intelligent together 🚀")
+
+me = AIEngineer()
+me.say_hi()
 ```
 
 - 🚀 AI/ML Engineer building **production ML pipelines** — data processing, model integration, evaluation, and deployment end-to-end
@@ -40,24 +43,22 @@ class AIEngineer:
 - ✍️ Co-author on a research manuscript on AI-powered gesture recognition (under review)
 - 🏆 Top 10 — Microsoft Innoquest Hackathon 2024 · Dean's List · RMO & INMO Qualifier
 
-<br/>
+---
 
 ## 🚀 Featured Projects
-
-<div align="center">
 
 <table>
 <tr>
 <td width="50%">
 
-### 🤖 [cerai-eval-critique](https://github.com/lavanya0505/cerai-eval-critique)
+**🤖 [cerai-eval-critique](https://github.com/lavanya0505/cerai-eval-critique)**
 Production-grade multi-agent AI **governance framework** evaluating conversational AI for safety, hallucination, healthcare risk & trust calibration.
 `Python`
 
 </td>
 <td width="50%">
 
-### 📚 [research-intelligence-assistant](https://github.com/lavanya0505/research-intelligence-assistant)
+**📚 [research-intelligence-assistant](https://github.com/lavanya0505/research-intelligence-assistant)**
 Production-deployed research assistant using **hybrid retrieval** to surface papers, research gaps, and publication opportunities.
 `Python` `FAISS` `NetworkX` `spaCy`
 
@@ -66,14 +67,14 @@ Production-deployed research assistant using **hybrid retrieval** to surface pap
 <tr>
 <td width="50%">
 
-### 📊 [AI-STARTUP-ANALYST](https://github.com/lavanya0505/AI-STARTUP-ANALYST)
+**📊 [AI-STARTUP-ANALYST](https://github.com/lavanya0505/AI-STARTUP-ANALYST)**
 Multi-agent system for **startup validation** and investor-ready pitch generation.
 `LangGraph` `Tavily` `Groq LLaMA 3.3`
 
 </td>
 <td width="50%">
 
-### ☁️ [AWS-IntelliVault](https://github.com/lavanya0505/AWS-IntelliVault)
+**☁️ [AWS-IntelliVault](https://github.com/lavanya0505/AWS-IntelliVault)**
 AI-powered **document intelligence platform** with semantic search and agentic RAG workflows.
 `AWS Bedrock` `Vector Embeddings`
 
@@ -82,14 +83,14 @@ AI-powered **document intelligence platform** with semantic search and agentic R
 <tr>
 <td width="50%">
 
-### 🧘 [VEDA-AI-COMPANION](https://github.com/lavanya0505/VEDA-AI-COMPANION)
+**🧘 [VEDA-AI-COMPANION](https://github.com/lavanya0505/VEDA-AI-COMPANION)**
 Intelligent **mental health assistant** with real-time voice conversation, speech-to-text & text-to-speech.
 `TypeScript` `LLMs` `STT/TTS`
 
 </td>
 <td width="50%">
 
-### 🛰️ [cloudless-satellite-mosaic-generator](https://github.com/lavanya0505/cloudless-satellite-mosaic-generator)
+**🛰️ [cloudless-satellite-mosaic-generator](https://github.com/lavanya0505/cloudless-satellite-mosaic-generator)**
 Geospatial pipeline generating **cloud-free satellite mosaics** by stitching multi-raster imagery.
 `Jupyter Notebook`
 
@@ -98,14 +99,14 @@ Geospatial pipeline generating **cloud-free satellite mosaics** by stitching mul
 <tr>
 <td width="50%">
 
-### 🎯 [AI-CANDIDATE-SYSTEM-RANKING](https://github.com/lavanya0505/AI-CANDIDATE-SYSTEM-RANKING)
+**🎯 [AI-CANDIDATE-SYSTEM-RANKING](https://github.com/lavanya0505/AI-CANDIDATE-SYSTEM-RANKING)**
 AI-driven system for ranking and evaluating candidates.
 `Python`
 
 </td>
 <td width="50%">
 
-### 📉 [crypto-ai-backtester](https://github.com/lavanya0505/crypto-ai-backtester)
+**📉 [crypto-ai-backtester](https://github.com/lavanya0505/crypto-ai-backtester)**
 AI-powered crypto backtesting system with **RSI strategies**, walk-forward validation & regime detection.
 `Python` `Streamlit` `OpenAI Agents`
 
@@ -114,14 +115,14 @@ AI-powered crypto backtesting system with **RSI strategies**, walk-forward valid
 <tr>
 <td width="50%">
 
-### ⚠️ [llm-failure-prediction](https://github.com/lavanya0505/llm-failure-prediction)
+**⚠️ [llm-failure-prediction](https://github.com/lavanya0505/llm-failure-prediction)**
 Predicts and analyzes **LLM failure modes** before they hit production.
 `Python`
 
 </td>
 <td width="50%">
 
-### 🕶️ [neon-aura-ar](https://github.com/lavanya0505/neon-aura-ar)
+**🕶️ [neon-aura-ar](https://github.com/lavanya0505/neon-aura-ar)**
 Browser-based **AR interaction system** using hand tracking, voice commands, and real-time effects.
 `HTML` `WebAR`
 
@@ -130,14 +131,14 @@ Browser-based **AR interaction system** using hand tracking, voice commands, and
 <tr>
 <td width="50%">
 
-### 🎵 [Spotify-etl-pipeline](https://github.com/lavanya0505/Spotify-etl-pipeline)
+**🎵 [Spotify-etl-pipeline](https://github.com/lavanya0505/Spotify-etl-pipeline)**
 Scalable **ETL pipeline** for Spotify data with advanced feature engineering and interactive analytics.
 `PostgreSQL` `Docker` `Streamlit`
 
 </td>
 <td width="50%">
 
-### 🗣️ [punjabi-speech-recognition-xlsr](https://github.com/lavanya0505/punjabi-speech-recognition-xlsr)
+**🗣️ [punjabi-speech-recognition-xlsr](https://github.com/lavanya0505/punjabi-speech-recognition-xlsr)**
 End-to-end **Punjabi ASR system** fine-tuning XLSR for low-resource language speech recognition.
 `Jupyter Notebook` `HuggingFace`
 
@@ -145,19 +146,15 @@ End-to-end **Punjabi ASR system** fine-tuning XLSR for low-resource language spe
 </tr>
 </table>
 
-</div>
-
-<br/>
+---
 
 ## 💻 Tech Stack
-
-<div align="center">
 
 **🤖 GenAI & LLM**
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=graphql&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=for-the-badge)
+![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97_HuggingFace-FFD21E?style=for-the-badge)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
@@ -188,13 +185,9 @@ End-to-end **Punjabi ASR system** fine-tuning XLSR for low-resource language spe
 ![NetworkX](https://img.shields.io/badge/NetworkX-2E8B57?style=for-the-badge)
 ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
 
-</div>
-
-<br/>
+---
 
 ## 🏆 Certifications & Achievements
-
-<div align="center">
 
 | 🎓 Certification | 🏅 Achievement |
 |---|---|
@@ -204,78 +197,55 @@ End-to-end **Punjabi ASR system** fine-tuning XLSR for low-resource language spe
 | Generative AI Certification | 900+ LeetCode Problems Solved |
 | Artificial Intelligence & Expert Systems | GPA 8.65 — B.Tech CSE (AI/ML) |
 
-</div>
-
-<br/>
+---
 
 ## 🧩 LeetCode — 1000+ Problems Solved 🔥
 
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=700&color=FFA116&center=true&vCenter=true&width=550&lines=1000%2B+Problems+Solved+%F0%9F%92%AA;RMO+%26+INMO+Qualifier+%F0%9F%8F%86;Consistent+Daily+Grinder+%F0%9F%94%A5" alt="LeetCode Typing"/>
-
-<br/><br/>
+[![LeetCode Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=700&color=FFA116&center=true&vCenter=true&width=550&lines=1000%2B+Problems+Solved+%F0%9F%92%AA%3B+RMO+%26+INMO+Qualifier+%F0%9F%8F%86%3B+Consistent+Daily+Grinder+%F0%9F%94%A5)](https://leetcode.com/u/lavieee2206)
 
 [![LeetCode Stats](https://leetcode-stats-card.vercel.app/api?username=lavieee2206&theme=dark&border=true&background=0D1117&border_color=FFA116)](https://leetcode.com/u/lavieee2206)
 
-<br/>
+[![LeetCode Heatmap](https://leetcard.jacoblin.cool/lavieee2206?theme=dark&font=Fira%20Code&ext=heatmap)](https://leetcode.com/u/lavieee2206)
 
-<a href="https://leetcode.com/u/lavieee2206">
-  <img src="https://leetcard.jacoblin.cool/lavieee2206?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Heatmap"/>
-</a>
+![Problems Solved](https://img.shields.io/badge/Solved-1000%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
+![RMO](https://img.shields.io/badge/RMO-Qualified-8E2DE2?style=for-the-badge&logo=abstract)
+![INMO](https://img.shields.io/badge/INMO-Qualified-4A00E0?style=for-the-badge&logo=abstract)
+![Consistency](https://img.shields.io/badge/Daily_Grinder-%F0%9F%94%A5-critical?style=for-the-badge)
 
-<br/><br/>
-
-[![Problems Solved](https://img.shields.io/badge/Solved-1000%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/lavieee2206)
-[![RMO](https://img.shields.io/badge/RMO-Qualified-8E2DE2?style=for-the-badge&logo=abstract)](https://leetcode.com/u/lavieee2206)
-[![INMO](https://img.shields.io/badge/INMO-Qualified-4A00E0?style=for-the-badge&logo=abstract)](https://leetcode.com/u/lavieee2206)
-[![Consistency](https://img.shields.io/badge/Daily_Grinder-🔥-critical?style=for-the-badge)](https://leetcode.com/u/lavieee2206)
-
-</div>
-
-<br/>
+---
 
 ## 📊 GitHub Stats
 
-<div align="center">
+![](https://github-readme-stats.vercel.app/api?username=lavanya0505&show_icons=true&theme=radical&hide_border=true&count_private=true)
+![](https://github-readme-streak-stats.herokuapp.com/?user=lavanya0505&theme=radical&hide_border=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=lavanya0505&layout=compact&theme=radical&hide_border=true)
 
-<img src="https://github-readme-stats.vercel.app/api?username=lavanya0505&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=lavanya0505&theme=radical&hide_border=true" height="165"/>
+![](https://github-readme-activity-graph.vercel.app/graph?username=lavanya0505&theme=react-dark&hide_border=true)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lavanya0505&layout=compact&theme=radical&hide_border=true" height="165"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lavanya0505&theme=react-dark&hide_border=true" width="100%"/>
-
-</div>
-
-<br/>
+---
 
 ## 🐍 Contribution Snake
 
-<div align="center">
+[![](https://raw.githubusercontent.com/lavanya0505/lavanya0505/output/github-contribution-grid-snake-dark.svg)](https://raw.githubusercontent.com/lavanya0505/lavanya0505/output/github-contribution-grid-snake-dark.svg)
 
-<img src="https://raw.githubusercontent.com/lavanya0505/lavanya0505/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+> ⚠️ Snake animation requires a one-time GitHub Actions setup — see the companion `snake.yml` file for the exact steps.
 
-<sub>⚠️ Snake animation requires a one-time GitHub Actions setup — see the companion `snake.yml` file for the exact steps.</sub>
-
-</div>
-
-<br/>
+---
 
 ## 🏆 GitHub Trophies
 
-<div align="center">
+![](https://github-profile-trophy.vercel.app/?username=lavanya0505&theme=radical&no-frame=true&row=1&column=7)
 
-<img src="https://github-profile-trophy.vercel.app/?username=lavanya0505&theme=radical&no-frame=true&row=1&column=7"/>
-
-</div>
-
-<br/>
+---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer"/>
+### 📫 Let's Connect
 
-**📫 Let's connect:** [LinkedIn](https://linkedin.com/in/lavanya-madaan-407237268) · [Email](mailto:lavieee2206@gmail.com) · [LeetCode](https://leetcode.com/u/lavieee2206)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lavanya-madaan-407237268)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lavieee2206@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/lavieee2206)
+
+⭐️ *Thanks for stopping by — always open to collaborating on interesting AI/ML projects!*
 
 </div>
