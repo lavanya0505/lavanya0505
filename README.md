@@ -321,10 +321,19 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 
 <div align="center">
 
-## ◈  L E T ' S  B U I L D  ◈
+## ◈  L E T ' S  T A L K  ◈
 
-**AI systems that reason. Systems that retrieve. Systems that act. Systems that improve.**
+*Interested in AI/ML engineering, agentic systems, RAG infrastructure and production software. If you are building something where models need to retrieve, reason, use tools or improve, I would love to hear about it.*
 
-[LinkedIn](https://linkedin.com/in/lavanya-madaan-407237268) · [GitHub](https://github.com/lavanya0505) · [LeetCode](https://leetcode.com/u/lavieee2206)
+<p align="center">
+<a href="https://github.com/lavanya0505"><img src="https://img.shields.io/badge/GITHUB-22d3ee?style=for-the-badge&logo=github&logoColor=0d1117" alt="GitHub" /></a>
+<a href="mailto:lavieee2206@gmail.com"><img src="https://img.shields.io/badge/EMAIL-f472b6?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email" /></a>
+<a href="https://linkedin.com/in/lavanya-madaan-407237268"><img src="https://img.shields.io/badge/LINKEDIN-8b5cf6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://leetcode.com/u/lavieee2206"><img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=111827" alt="LeetCode" /></a>
+</p>
+
+<p align="center"><a href="https://github.com/lavanya0505"><b>github.com/lavanya0505</b></a> · <a href="mailto:lavieee2206@gmail.com">lavieee2206@gmail.com</a> · <a href="https://linkedin.com/in/lavanya-madaan-407237268">LinkedIn</a></p>
+
+<p align="center"><img src="https://komarev.com/ghpvc/?username=lavanya0505&style=flat-square&color=8b5cf6&label=PROFILE+VIEWS" alt="Profile views" /></p>
 
 </div>
