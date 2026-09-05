@@ -2,6 +2,8 @@
 <img src="./assets/hero-dark.svg#gh-dark-mode-only" alt="Lavanya Madan" />
 <img src="./assets/hero-light.svg#gh-light-mode-only" alt="Lavanya Madan" />
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=AI+Engineer+%7C+Agentic+AI+%7C+RAG+Systems;Building+LLM+products+that+reason%2C+retrieve+and+act;Turning+research+ideas+into+production+systems)](https://git.io/typing-svg)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lavanya-madaan-407237268)
 [![LeetCode](https://img.shields.io/badge/LeetCode-1000%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/lavieee2206)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lavieee2206@gmail.com)
@@ -37,6 +39,11 @@ And an AI product should survive outside a notebook.
 </tr></table>
 
 ## ◈  F E A T U R E D  S Y S T E M S  ◈
+
+<table><tr>
+<td width="50%"><a href="https://github.com/lavanya0505/DocuPilot"><img src="./assets/agent-dark.svg#gh-dark-mode-only" width="100%" alt="DocuPilot" /><img src="./assets/agent-light.svg#gh-light-mode-only" width="100%" alt="DocuPilot" /></a></td>
+<td width="50%"><a href="https://github.com/lavanya0505/OrchestrAI"><img src="./assets/rag-dark.svg#gh-dark-mode-only" width="100%" alt="OrchestrAI" /><img src="./assets/rag-light.svg#gh-light-mode-only" width="100%" alt="OrchestrAI" /></a></td>
+</tr></table>
 
 ### 📚 DocuPilot  _{document intelligence}
 AI-powered document search and question answering with semantic retrieval, citations and RAG-generated answers.
@@ -110,6 +117,11 @@ Document intelligence platform using AWS Bedrock, semantic search, vector embedd
 <img src="https://github-readme-stats.vercel.app/api?username=lavanya0505&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=lavanya0505&theme=radical&hide_border=true" alt="GitHub streak" />
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lavanya0505&theme=github_dark" alt="Profile summary" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lavanya0505&theme=github_dark" alt="Repositories by language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lavanya0505&theme=github_dark" alt="Most committed language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lavanya0505&theme=github_dark&utcOffset=5.5" alt="Productive time" />
+
 ## ◈  T H E  A R E N A  ◈
 
 Competitive programming taught me to care about complexity, edge cases and whether a solution actually works.
@@ -128,13 +140,14 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 ## ◈  R E C E N T L Y  B U I L T  ◈
 
 <!-- RECENTLY_PUSHED_START -->
-| Project | Description |
-|---|---|
-| [DocuPilot](https://github.com/lavanya0505/DocuPilot) | AI document search, semantic retrieval and cited RAG answers |
-| [OrchestrAI](https://github.com/lavanya0505/OrchestrAI) | Multi-agent orchestration and tool-using workflows |
-| [CERAI Eval & Critique](https://github.com/lavanya0505/cerai-eval-critique) | Multi-agent AI governance and evaluation |
-| [FraudForge](https://github.com/lavanya0505/FraudForge) | Real-time fraud detection and MLOps |
-| [AWS IntelliVault](https://github.com/lavanya0505/AWS-IntelliVault) | AWS Bedrock document intelligence and agentic RAG |
+| Project | What it is | Stack | Updated |
+|---|---|---|---|
+| [lavanya0505](https://github.com/lavanya0505/lavanya0505) | AI/ML Engineer building GenAI-powered multi-agent systems, RAG pipelines, and LLM applications in production. Skilled in Python, FastAPI, LangChain, LangGraph, React, SQL, MongoDB, Docker, and CI/CD workflow automation. Turning ideas into real, deployable AI products. | `Python` | 2026-09-05 |
+| [DocuPilot](https://github.com/lavanya0505/DocuPilot) | AI-powered document search and question answering with semantic retrieval, citations, and RAG-generated answers. | `Python` | 2026-09-04 |
+| [OrchestrAI](https://github.com/lavanya0505/OrchestrAI) | A production-oriented multi-agent AI orchestration framework built with Python, enabling specialized agents to collaborate, reason, use tools, and execute complex tasks autonomously. | `Python` | 2026-08-14 |
+| [FraudForge](https://github.com/lavanya0505/FraudForge) | A production-grade MLOps platform for real-time fraud detection featuring automated data pipelines, Apache Airflow orchestration, MLflow experiment tracking, model versioning, Dockerized deployment, monitoring, and scalable machine learning workflows. | `HTML` | 2026-07-29 |
+| [AWS-IntelliVault](https://github.com/lavanya0505/AWS-IntelliVault) | An AI-powered document intelligence platform using AWS Bedrock, semantic search, vector embeddings, and agentic RAG workflows. | `Python` | 2026-07-13 |
+| [AI-CANDIDATE-SYSTEM-RANKING](https://github.com/lavanya0505/AI-CANDIDATE-SYSTEM-RANKING) | AI/ML project | `Python` | 2026-07-03 |
 <!-- RECENTLY_PUSHED_END -->
 
 ## ◈  G I T H U B  A C T I V I T Y  ◈
@@ -147,7 +160,11 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 ## ◈  C O N T R I B U T I O N  S N A K E  ◈
 
 <div align="center">
-![Contribution Snake](https://raw.githubusercontent.com/lavanya0505/lavanya0505/output/github-contribution-grid-snake-dark.svg)
+<img src="./assets/snake-dark.svg#gh-dark-mode-only" alt="Contribution snake" />
+<img src="./assets/snake-light.svg#gh-light-mode-only" alt="Contribution snake" />
+<br />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only" alt="3D contribution calendar" />
+<img src="./profile-3d-contrib/profile-season.svg#gh-light-mode-only" alt="3D contribution calendar" />
 </div>
 
 ---
