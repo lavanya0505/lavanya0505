@@ -56,6 +56,16 @@ The workflow is explicit: `UPLOAD → PARSE → EMBED → RETRIEVE → GENERATE 
 
 <p><a href="https://github.com/lavanya0505/DocuPilot"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
 <img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=22d3ee" alt="Python" />
+<img src="https://img.shields.io/badge/FastAPI-1a1f28?style=flat-square&logo=fastapi&logoColor=22d3ee" alt="FastAPI" />
+<img src="https://img.shields.io/badge/PostgreSQL_16-1a1f28?style=flat-square&logo=postgresql&logoColor=22d3ee" alt="PostgreSQL 16" />
+<img src="https://img.shields.io/badge/pgvector-1a1f28?style=flat-square&logo=postgresql&logoColor=22d3ee" alt="pgvector" />
+<img src="https://img.shields.io/badge/Redis-1a1f28?style=flat-square&logo=redis&logoColor=22d3ee" alt="Redis" />
+<img src="https://img.shields.io/badge/Celery-1a1f28?style=flat-square&logo=celery&logoColor=22d3ee" alt="Celery" />
+<img src="https://img.shields.io/badge/Next.js_14-1a1f28?style=flat-square&logo=nextdotjs&logoColor=22d3ee" alt="Next.js 14" />
+<img src="https://img.shields.io/badge/Tailwind-1a1f28?style=flat-square&logo=tailwindcss&logoColor=22d3ee" alt="Tailwind" />
+<img src="https://img.shields.io/badge/PyMuPDF-1a1f28?style=flat-square&logo=python&logoColor=22d3ee" alt="PyMuPDF" />
+<img src="https://img.shields.io/badge/Tesseract_OCR-1a1f28?style=flat-square&logo=google&logoColor=22d3ee" alt="Tesseract OCR" />
+<img src="https://img.shields.io/badge/SentenceTransformers-1a1f28?style=flat-square&logo=huggingface&logoColor=22d3ee" alt="Sentence Transformers" />
 <img src="https://img.shields.io/badge/RAG-1a1f28?style=flat-square&logo=bookstack&logoColor=22d3ee" alt="RAG" />
 <img src="https://img.shields.io/badge/Embeddings-1a1f28?style=flat-square&logo=databricks&logoColor=22d3ee" alt="Embeddings" /></p>
 
@@ -77,8 +87,12 @@ ReAct loop · sandboxed tools · mocked LLM tests · step limits
 
 <p><a href="https://github.com/lavanya0505/OrchestrAI"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
 <img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=8b5cf6" alt="Python" />
-<img src="https://img.shields.io/badge/LangGraph-1a1f28?style=flat-square&logo=graphql&logoColor=8b5cf6" alt="LangGraph" />
-<img src="https://img.shields.io/badge/Agents-1a1f28?style=flat-square&logo=probot&logoColor=8b5cf6" alt="Agents" /></p>
+<img src="https://img.shields.io/badge/Groq-1a1f28?style=flat-square&logo=lightning&logoColor=8b5cf6" alt="Groq" />
+<img src="https://img.shields.io/badge/ReAct-1a1f28?style=flat-square&logo=probot&logoColor=8b5cf6" alt="ReAct" />
+<img src="https://img.shields.io/badge/Tool_Registry-1a1f28?style=flat-square&logo=dependabot&logoColor=8b5cf6" alt="Tool registry" />
+<img src="https://img.shields.io/badge/Sandboxed_Execution-1a1f28?style=flat-square&logo=docker&logoColor=8b5cf6" alt="Sandboxed execution" />
+<img src="https://img.shields.io/badge/pytest-1a1f28?style=flat-square&logo=pytest&logoColor=8b5cf6" alt="pytest" />
+<img src="https://img.shields.io/badge/Mocked_LLM-1a1f28?style=flat-square&logo=python&logoColor=8b5cf6" alt="Mocked LLM" /></p>
 
 ### <img src="https://img.shields.io/badge/03-c3f53c?style=flat-square&label=&labelColor=c3f53c" alt="03" /> &nbsp;CERAI Eval &amp; Critique <sub><i>LLM governance and evaluation</i></sub>
 
@@ -96,6 +110,12 @@ Multi-agent evaluation framework for conversational AI. A **five-agent consensus
 
 <p><a href="https://github.com/lavanya0505/cerai-eval-critique"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
 <img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=c3f53c" alt="Python" />
+<img src="https://img.shields.io/badge/FastAPI-1a1f28?style=flat-square&logo=fastapi&logoColor=c3f53c" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Streamlit-1a1f28?style=flat-square&logo=streamlit&logoColor=c3f53c" alt="Streamlit" />
+<img src="https://img.shields.io/badge/Groq-1a1f28?style=flat-square&logo=lightning&logoColor=c3f53c" alt="Groq" />
+<img src="https://img.shields.io/badge/Llama_3.3_70B-1a1f28?style=flat-square&logo=meta&logoColor=c3f53c" alt="Llama 3.3 70B" />
+<img src="https://img.shields.io/badge/Consensus_Aggregation-1a1f28?style=flat-square&logo=weightsandbiases&logoColor=c3f53c" alt="Consensus aggregation" />
+<img src="https://img.shields.io/badge/Trust_Passport-1a1f28?style=flat-square&logo=shield&logoColor=c3f53c" alt="Trust passport" />
 <img src="https://img.shields.io/badge/LLM_Evaluation-1a1f28?style=flat-square&logo=pytest&logoColor=c3f53c" alt="LLM evaluation" />
 <img src="https://img.shields.io/badge/Safety-1a1f28?style=flat-square&logo=shield&logoColor=c3f53c" alt="Safety" /></p>
 
@@ -115,8 +135,16 @@ FAISS + graph traversal · RRF fusion · cited research answers
 
 <p><a href="https://github.com/lavanya0505/research-intelligence-assistant"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
 <img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=f472b6" alt="Python" />
+<img src="https://img.shields.io/badge/ArXiv_API-1a1f28?style=flat-square&logo=arxiv&logoColor=f472b6" alt="ArXiv API" />
 <img src="https://img.shields.io/badge/FAISS-1a1f28?style=flat-square&logo=meta&logoColor=f472b6" alt="FAISS" />
-<img src="https://img.shields.io/badge/NetworkX-1a1f28?style=flat-square&logo=networkx&logoColor=f472b6" alt="NetworkX" /></p>
+<img src="https://img.shields.io/badge/SentenceTransformers-1a1f28?style=flat-square&logo=huggingface&logoColor=f472b6" alt="Sentence Transformers" />
+<img src="https://img.shields.io/badge/spaCy-1a1f28?style=flat-square&logo=spacy&logoColor=f472b6" alt="spaCy" />
+<img src="https://img.shields.io/badge/NetworkX-1a1f28?style=flat-square&logo=networkx&logoColor=f472b6" alt="NetworkX" />
+<img src="https://img.shields.io/badge/Mistral_7B-1a1f28?style=flat-square&logo=mistralai&logoColor=f472b6" alt="Mistral 7B" />
+<img src="https://img.shields.io/badge/Ollama-1a1f28?style=flat-square&logo=ollama&logoColor=f472b6" alt="Ollama" />
+<img src="https://img.shields.io/badge/FastAPI-1a1f28?style=flat-square&logo=fastapi&logoColor=f472b6" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Gradio-1a1f28?style=flat-square&logo=gradio&logoColor=f472b6" alt="Gradio" />
+<img src="https://img.shields.io/badge/RRF_Fusion-1a1f28?style=flat-square&logo=python&logoColor=f472b6" alt="Reciprocal Rank Fusion" /></p>
 
 ### <img src="https://img.shields.io/badge/05-64748b?style=flat-square&label=&labelColor=64748b" alt="05" /> &nbsp;FraudForge <sub><i>real-time fraud detection and MLOps</i></sub>
 
@@ -127,6 +155,12 @@ Production-grade fraud detection platform with **automated pipelines, experiment
 <img src="https://img.shields.io/badge/Airflow-1a1f28?style=flat-square&logo=apacheairflow&logoColor=94a3b8" alt="Airflow" />
 <img src="https://img.shields.io/badge/MLflow-1a1f28?style=flat-square&logo=mlflow&logoColor=94a3b8" alt="MLflow" />
 <img src="https://img.shields.io/badge/Docker-1a1f28?style=flat-square&logo=docker&logoColor=94a3b8" alt="Docker" />
+<img src="https://img.shields.io/badge/FastAPI-1a1f28?style=flat-square&logo=fastapi&logoColor=94a3b8" alt="FastAPI" />
+<img src="https://img.shields.io/badge/XGBoost-1a1f28?style=flat-square&logo=xgboost&logoColor=94a3b8" alt="XGBoost" />
+<img src="https://img.shields.io/badge/Prometheus-1a1f28?style=flat-square&logo=prometheus&logoColor=94a3b8" alt="Prometheus" />
+<img src="https://img.shields.io/badge/Grafana-1a1f28?style=flat-square&logo=grafana&logoColor=94a3b8" alt="Grafana" />
+<img src="https://img.shields.io/badge/Kubernetes-1a1f28?style=flat-square&logo=kubernetes&logoColor=94a3b8" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/Kafka-1a1f28?style=flat-square&logo=apachekafka&logoColor=94a3b8" alt="Kafka" />
 <img src="https://img.shields.io/badge/AUC_ROC_0.9464-1a1f28?style=flat-square&logo=chartdotjs&logoColor=94a3b8" alt="AUC ROC 0.9464" /></p>
 
 ### <img src="https://img.shields.io/badge/06-64748b?style=flat-square&label=&labelColor=64748b" alt="06" /> &nbsp;AWS IntelliVault <sub><i>cloud document intelligence</i></sub>
@@ -134,7 +168,14 @@ Production-grade fraud detection platform with **automated pipelines, experiment
 Enterprise document intelligence using **AWS Bedrock, semantic search, vector embeddings and agentic RAG workflows**. The stack connects cloud model inference to searchable enterprise context, with retrieval and generation treated as separate, inspectable stages.
 
 <p><a href="https://github.com/lavanya0505/AWS-IntelliVault"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
+<img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=94a3b8" alt="Python" />
+<img src="https://img.shields.io/badge/FastAPI-1a1f28?style=flat-square&logo=fastapi&logoColor=94a3b8" alt="FastAPI" />
 <img src="https://img.shields.io/badge/AWS_Bedrock-1a1f28?style=flat-square&logo=amazonwebservices&logoColor=94a3b8" alt="AWS Bedrock" />
+<img src="https://img.shields.io/badge/Titan_Embeddings-1a1f28?style=flat-square&logo=amazonwebservices&logoColor=94a3b8" alt="Titan embeddings" />
+<img src="https://img.shields.io/badge/ChromaDB-1a1f28?style=flat-square&logo=databricks&logoColor=94a3b8" alt="ChromaDB" />
+<img src="https://img.shields.io/badge/OpenAI-1a1f28?style=flat-square&logo=openai&logoColor=94a3b8" alt="OpenAI" />
+<img src="https://img.shields.io/badge/LangGraph-1a1f28?style=flat-square&logo=graphql&logoColor=94a3b8" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Docker_Compose-1a1f28?style=flat-square&logo=docker&logoColor=94a3b8" alt="Docker Compose" />
 <img src="https://img.shields.io/badge/RAG-1a1f28?style=flat-square&logo=bookstack&logoColor=94a3b8" alt="RAG" />
 <img src="https://img.shields.io/badge/Embeddings-1a1f28?style=flat-square&logo=databricks&logoColor=94a3b8" alt="Embeddings" /></p>
 
