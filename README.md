@@ -323,7 +323,7 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 
 ## ◈  L E T ' S  T A L K  ◈
 
-*Interested in AI/ML engineering, agentic systems, RAG infrastructure and production software. If you are building something where models need to retrieve, reason, use tools or improve, I would love to hear about it.*
+*Open to AI Engineer, ML Engineer, GenAI Engineer, LLM Engineer and Applied AI roles, including full-time and internship opportunities in India or internationally, remote or onsite. If you are building something where models need to retrieve, reason, use tools or improve, I would love to hear about it.*
 
 <p align="center">
 <a href="https://github.com/lavanya0505"><img src="https://img.shields.io/badge/GITHUB-22d3ee?style=for-the-badge&logo=github&logoColor=0d1117" alt="GitHub" /></a>
