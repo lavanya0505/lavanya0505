@@ -4,6 +4,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=AI+Engineer+%7C+Agentic+AI+%7C+RAG+Systems;Building+LLM+products+that+reason%2C+retrieve+and+act;Turning+research+ideas+into+production+systems)](https://git.io/typing-svg)
 
+<img src="./assets/ai-signal-dark.svg#gh-dark-mode-only" width="100%" alt="AI pipeline: retrieve, reason, use tools, evaluate and ship" />
+<img src="./assets/ai-signal-light.svg#gh-light-mode-only" width="100%" alt="AI pipeline: retrieve, reason, use tools, evaluate and ship" />
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lavanya-madaan-407237268)
 [![LeetCode](https://img.shields.io/badge/LeetCode-1000%2B-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/lavieee2206)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lavieee2206@gmail.com)

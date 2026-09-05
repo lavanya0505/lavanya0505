@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="86" viewBox="0 0 760 86" role="img" aria-labelledby="title desc">
+  <title id="title">AI system signal</title>
+  <desc id="desc">Animated signal moving through retrieval, reasoning, tools and evaluation.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#0891b2"/>
+      <stop offset=".5" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#db2777"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g fill="none" stroke="#475569" stroke-opacity=".3" stroke-width="1">
+    <path d="M90 43h145M285 43h190M525 43h145"/>
+    <path d="M235 43l25-25M235 43l25 25M475 43l25-25M475 43l25 25"/>
+  </g>
+  <g fill="#f8fafc" stroke="url(#line)" stroke-width="2">
+    <rect x="35" y="27" width="110" height="32" rx="16"/>
+    <rect x="205" y="27" width="80" height="32" rx="16"/>
+    <rect x="355" y="27" width="110" height="32" rx="16"/>
+    <rect x="535" y="27" width="80" height="32" rx="16"/>
+    <rect x="665" y="27" width="60" height="32" rx="16"/>
+  </g>
+  <g fill="#334155" font-family="monospace" font-size="9" letter-spacing="1" text-anchor="middle">
+    <text x="90" y="47">RETRIEVE</text><text x="245" y="47">REASON</text><text x="410" y="47">TOOLS</text><text x="575" y="47">EVAL</text><text x="695" y="47">SHIP</text>
+  </g>
+  <circle r="4" fill="#0891b2" filter="url(#glow)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M90 43H235l25-25M260 18l25 25h70M285 43h70l25 25M380 68l25-25h70l25-25M500 18l25 25h140"/>
+  </circle>
+  <circle cx="380" cy="43" r="19" fill="none" stroke="#0891b2" stroke-opacity=".28"><animate attributeName="r" values="15;24;15" dur="2.5s" repeatCount="indefinite"/></circle>
+</svg>
