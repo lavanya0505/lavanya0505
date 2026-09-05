@@ -28,56 +28,108 @@ And an AI product should survive outside a notebook.
 
 ---
 
-## ◈  S Y S T E M S  I  B U I L D  ◈
-
-<table><tr>
-<td width="50%" align="center"><img src="./assets/agent-dark.svg#gh-dark-mode-only" width="100%"/><img src="./assets/agent-light.svg#gh-light-mode-only" width="100%"/></td>
-<td width="50%" align="center"><img src="./assets/rag-dark.svg#gh-dark-mode-only" width="100%"/><img src="./assets/rag-light.svg#gh-light-mode-only" width="100%"/></td>
-</tr><tr>
-<td width="50%" align="center"><img src="./assets/graph-dark.svg#gh-dark-mode-only" width="100%"/><img src="./assets/graph-light.svg#gh-light-mode-only" width="100%"/></td>
-<td width="50%" align="center"><img src="./assets/eval-dark.svg#gh-dark-mode-only" width="100%"/><img src="./assets/eval-light.svg#gh-light-mode-only" width="100%"/></td>
-</tr></table>
-
 ## ◈  F E A T U R E D  S Y S T E M S  ◈
 
-<table><tr>
-<td width="50%"><a href="https://github.com/lavanya0505/DocuPilot"><img src="./assets/agent-dark.svg#gh-dark-mode-only" width="100%" alt="DocuPilot" /><img src="./assets/agent-light.svg#gh-light-mode-only" width="100%" alt="DocuPilot" /></a></td>
-<td width="50%"><a href="https://github.com/lavanya0505/OrchestrAI"><img src="./assets/rag-dark.svg#gh-dark-mode-only" width="100%" alt="OrchestrAI" /><img src="./assets/rag-light.svg#gh-light-mode-only" width="100%" alt="OrchestrAI" /></a></td>
-</tr></table>
+<p align="center"><i>I build systems where retrieval is inspectable, agents have jobs, and model quality is measured.</i></p>
 
-### 📚 DocuPilot  _{document intelligence}
-AI-powered document search and question answering with semantic retrieval, citations and RAG-generated answers.
+### <img src="https://img.shields.io/badge/01-22d3ee?style=flat-square&label=&labelColor=22d3ee" alt="01" /> &nbsp;DocuPilot <sub><i>document intelligence and cited RAG</i></sub>
 
-**Flow:** `UPLOAD → PARSE → EMBED → RETRIEVE → GENERATE → CITE`
+<table><tr><td width="62%" valign="top">
 
-[Repository →](https://github.com/lavanya0505/DocuPilot)
+AI document search and question answering. Documents move through **upload, parsing, embedding and retrieval** before an LLM generates an answer with citations. The system is designed around evidence, not an opaque chat response.
 
-### 🤖 OrchestrAI  _{multi-agent orchestration}
-Production-oriented multi-agent framework enabling specialized agents to collaborate, reason, use tools and execute complex tasks.
+The workflow is explicit: `UPLOAD → PARSE → EMBED → RETRIEVE → GENERATE → CITE`.
 
-**Flow:** `PLAN → DELEGATE → TOOL → REASON → EVALUATE`
+</td><td width="38%" valign="top">
 
-[Repository →](https://github.com/lavanya0505/OrchestrAI)
+**The answer should show its work**
+### `cited RAG`
+semantic retrieval · source-aware answers · document Q&A
 
-### 🧪 CERAI Eval & Critique  _{LLM governance}
-Multi-agent AI governance framework evaluating conversational AI across safety, hallucination, healthcare risk, trust calibration and linguistic robustness.
+</td></tr></table>
 
-[Repository →](https://github.com/lavanya0505/cerai-eval-critique)
+<p><a href="https://github.com/lavanya0505/DocuPilot"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
+<img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=22d3ee" alt="Python" />
+<img src="https://img.shields.io/badge/RAG-1a1f28?style=flat-square&logo=bookstack&logoColor=22d3ee" alt="RAG" />
+<img src="https://img.shields.io/badge/Embeddings-1a1f28?style=flat-square&logo=databricks&logoColor=22d3ee" alt="Embeddings" /></p>
 
-### 🔬 Research Intelligence Assistant  _{AI research}
-Hybrid-retrieval research assistant for discovering relevant papers, research gaps and publication opportunities.
+### <img src="https://img.shields.io/badge/02-8b5cf6?style=flat-square&label=&labelColor=8b5cf6" alt="02" /> &nbsp;OrchestrAI <sub><i>multi-agent orchestration</i></sub>
 
-[Repository →](https://github.com/lavanya0505/research-intelligence-assistant)
+<table><tr><td width="62%" valign="top">
 
-### 🏦 FraudForge  _{real-time fraud + MLOps}
-Production-grade fraud detection platform with automated pipelines, experiment tracking, model versioning and Dockerized deployment.
+Production-oriented framework for specialized agents to **collaborate, reason, use tools and execute workflows**. Instead of asking one model to do everything, the system gives planning, delegation, tool use and evaluation clear roles.
 
-[Repository →](https://github.com/lavanya0505/FraudForge)
+The workflow is explicit: `PLAN → DELEGATE → TOOL → REASON → EVALUATE`.
 
-### ☁️ AWS IntelliVault  _{enterprise AI}
-Document intelligence platform using AWS Bedrock, semantic search, vector embeddings and agentic RAG workflows.
+</td><td width="38%" valign="top">
 
-[Repository →](https://github.com/lavanya0505/AWS-IntelliVault)
+**Agents with a job to do**
+### `multi-agent`
+planning · delegation · tool use · evaluation
+
+</td></tr></table>
+
+<p><a href="https://github.com/lavanya0505/OrchestrAI"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
+<img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=8b5cf6" alt="Python" />
+<img src="https://img.shields.io/badge/LangGraph-1a1f28?style=flat-square&logo=graphql&logoColor=8b5cf6" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Agents-1a1f28?style=flat-square&logo=probot&logoColor=8b5cf6" alt="Agents" /></p>
+
+### <img src="https://img.shields.io/badge/03-c3f53c?style=flat-square&label=&labelColor=c3f53c" alt="03" /> &nbsp;CERAI Eval &amp; Critique <sub><i>LLM governance and evaluation</i></sub>
+
+<table><tr><td width="62%" valign="top">
+
+Multi-agent evaluation framework for conversational AI. It examines **safety, hallucination, healthcare risk, trust calibration and linguistic robustness**, giving model behavior a review layer instead of treating the first response as final.
+
+</td><td width="38%" valign="top">
+
+**Models evaluating models**
+### `quality lift`
+safety · hallucination · healthcare risk · trust
+
+</td></tr></table>
+
+<p><a href="https://github.com/lavanya0505/cerai-eval-critique"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
+<img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=c3f53c" alt="Python" />
+<img src="https://img.shields.io/badge/LLM_Evaluation-1a1f28?style=flat-square&logo=pytest&logoColor=c3f53c" alt="LLM evaluation" />
+<img src="https://img.shields.io/badge/Safety-1a1f28?style=flat-square&logo=shield&logoColor=c3f53c" alt="Safety" /></p>
+
+### <img src="https://img.shields.io/badge/04-f472b6?style=flat-square&label=&labelColor=f472b6" alt="04" /> &nbsp;Research Intelligence Assistant <sub><i>hybrid retrieval for AI research</i></sub>
+
+<table><tr><td width="62%" valign="top">
+
+Research assistant for discovering relevant papers, research gaps and publication opportunities. It combines **semantic and structured retrieval** so a researcher can move from a question to a useful evidence set faster.
+
+</td><td width="38%" valign="top">
+
+**Find the signal in the literature**
+### `hybrid retrieval`
+paper discovery · research gaps · opportunity mapping
+
+</td></tr></table>
+
+<p><a href="https://github.com/lavanya0505/research-intelligence-assistant"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
+<img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=f472b6" alt="Python" />
+<img src="https://img.shields.io/badge/FAISS-1a1f28?style=flat-square&logo=meta&logoColor=f472b6" alt="FAISS" />
+<img src="https://img.shields.io/badge/NetworkX-1a1f28?style=flat-square&logo=networkx&logoColor=f472b6" alt="NetworkX" /></p>
+
+### <img src="https://img.shields.io/badge/05-64748b?style=flat-square&label=&labelColor=64748b" alt="05" /> &nbsp;FraudForge <sub><i>real-time fraud detection and MLOps</i></sub>
+
+Production-grade fraud detection platform with **automated pipelines, experiment tracking, model versioning, monitoring and Dockerized deployment**. The project connects model development to repeatable operational workflows.
+
+<p><a href="https://github.com/lavanya0505/FraudForge"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
+<img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=94a3b8" alt="Python" />
+<img src="https://img.shields.io/badge/Airflow-1a1f28?style=flat-square&logo=apacheairflow&logoColor=94a3b8" alt="Airflow" />
+<img src="https://img.shields.io/badge/MLflow-1a1f28?style=flat-square&logo=mlflow&logoColor=94a3b8" alt="MLflow" />
+<img src="https://img.shields.io/badge/Docker-1a1f28?style=flat-square&logo=docker&logoColor=94a3b8" alt="Docker" /></p>
+
+### <img src="https://img.shields.io/badge/06-64748b?style=flat-square&label=&labelColor=64748b" alt="06" /> &nbsp;AWS IntelliVault <sub><i>cloud document intelligence</i></sub>
+
+Enterprise document intelligence using **AWS Bedrock, semantic search, vector embeddings and agentic RAG workflows**. It is the cloud-facing expression of the same principle: make knowledge useful, searchable and grounded.
+
+<p><a href="https://github.com/lavanya0505/AWS-IntelliVault"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
+<img src="https://img.shields.io/badge/AWS_Bedrock-1a1f28?style=flat-square&logo=amazonwebservices&logoColor=94a3b8" alt="AWS Bedrock" />
+<img src="https://img.shields.io/badge/RAG-1a1f28?style=flat-square&logo=bookstack&logoColor=94a3b8" alt="RAG" />
+<img src="https://img.shields.io/badge/Embeddings-1a1f28?style=flat-square&logo=databricks&logoColor=94a3b8" alt="Embeddings" /></p>
 
 ---
 
@@ -96,13 +148,18 @@ Document intelligence platform using AWS Bedrock, semantic search, vector embedd
 
 ## ◈  T H E  S T A C K  ◈
 
-**AI / LLM** — `Python` · `LangChain` · `LangGraph` · `OpenAI` · `HuggingFace` · `Groq` · `Agents` · `RAG` · `Embeddings` · `LLM Evaluation`
+<p align="center"><i>Reason, retrieve, act, evaluate, improve.</i></p>
 
-**Backend / Data** — `FastAPI` · `PostgreSQL` · `MongoDB` · `SQL` · `FAISS` · `Pinecone` · `NetworkX`
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,fastapi,react,typescript,postgres,mongodb,docker,aws,githubactions&theme=dark" alt="Languages, frameworks and infrastructure" />
+</p>
 
-**Cloud / Infra** — `AWS` · `AWS Bedrock` · `Docker` · `GitHub Actions`
-
-**Frontend** — `React` · `TypeScript` · `Streamlit`
+| Layer | Tools I use | What it supports |
+|---|---|---|
+| **AI / LLM** | `LangChain` · `LangGraph` · `OpenAI` · `HuggingFace` · `Groq` | agents, RAG, embeddings, evaluation |
+| **Backend / Data** | `FastAPI` · `PostgreSQL` · `MongoDB` · `SQL` · `FAISS` · `Pinecone` · `NetworkX` | APIs, retrieval, persistence, knowledge graphs |
+| **Cloud / Infra** | `AWS` · `AWS Bedrock` · `Docker` · `GitHub Actions` | deployment, orchestration, automation |
+| **Frontend** | `React` · `TypeScript` · `Streamlit` | product surfaces and AI interfaces |
 
 ## ◈  T H E  N U M B E R S  ◈
 
@@ -122,9 +179,18 @@ Document intelligence platform using AWS Bedrock, semantic search, vector embedd
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lavanya0505&theme=github_dark" alt="Most committed language" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lavanya0505&theme=github_dark&utcOffset=5.5" alt="Productive time" />
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lavanya0505&theme=github_dark" alt="Profile statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lavanya0505&theme=github_dark" alt="Most committed language" />
+
 ## ◈  T H E  A R E N A  ◈
 
 Competitive programming taught me to care about complexity, edge cases and whether a solution actually works.
+
+<p align="center">
+<a href="https://leetcode.com/u/lavieee2206"><img src="https://img.shields.io/badge/LeetCode-1000%2B_PROBLEMS-FFA116?style=for-the-badge&logo=leetcode&logoColor=111827" alt="1000 plus LeetCode problems" /></a>
+<img src="https://img.shields.io/badge/RMO_%26_INMO-QUALIFIER-22d3ee?style=for-the-badge" alt="RMO and INMO qualifier" />
+<img src="https://img.shields.io/badge/AI%2FML-DEAN'S_LIST-8b5cf6?style=for-the-badge" alt="Dean's list" />
+</p>
 
 <a href="https://leetcode.com/u/lavieee2206"><img src="https://leetcode-stats-card.vercel.app/api?username=lavieee2206&theme=dark&border=true&background=0D1117&border_color=FFA116" alt="LeetCode stats" /></a>
 
@@ -149,6 +215,19 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 | [AWS-IntelliVault](https://github.com/lavanya0505/AWS-IntelliVault) | An AI-powered document intelligence platform using AWS Bedrock, semantic search, vector embeddings, and agentic RAG workflows. | `Python` | 2026-07-13 |
 | [AI-CANDIDATE-SYSTEM-RANKING](https://github.com/lavanya0505/AI-CANDIDATE-SYSTEM-RANKING) | AI/ML project | `Python` | 2026-07-03 |
 <!-- RECENTLY_PUSHED_END -->
+
+<details>
+<summary><b>↕ How this page builds itself</b></summary>
+
+| Piece | Where it comes from |
+|---|---|
+| Hero, rules and system visuals | `assets/*.svg`, generated by `scripts/generate_assets.py` |
+| Recently built table | GitHub API data fetched by `scripts/update_readme.py` |
+| Contribution snake | `Platane/snk` in `visuals.yml` |
+| 3D contribution calendar | `yoshi389111/github-profile-3d-contrib` in `visuals.yml` |
+| Theme awareness | Paired `#gh-dark-mode-only` and `#gh-light-mode-only` images |
+
+</details>
 
 ## ◈  G I T H U B  A C T I V I T Y  ◈
 
