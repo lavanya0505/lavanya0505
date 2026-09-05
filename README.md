@@ -38,13 +38,13 @@ And an AI product should survive outside a notebook.
 
 AI document search and question answering. Documents move through **upload, parsing, embedding and retrieval** before an LLM generates an answer with citations. The system is designed around evidence, not an opaque chat response.
 
-The workflow is explicit: `UPLOAD → PARSE → EMBED → RETRIEVE → GENERATE → CITE`.
+The workflow is explicit: `UPLOAD → PARSE → EMBED → RETRIEVE → GENERATE → CITE`. It supports **19 file extensions**, stores **384-dimensional** local embeddings, uses page-aware citations, and routes scanned PDFs to OCR when a page averages fewer than **100 characters**.
 
 </td><td width="38%" valign="top">
 
 **The answer should show its work**
-### `cited RAG`
-semantic retrieval · source-aware answers · document Q&A
+### `19 formats · 384-d vectors`
+`0.0262s` sample API response · `90 MB` local model · page-aware citations
 
 </td></tr></table>
 
@@ -57,15 +57,15 @@ semantic retrieval · source-aware answers · document Q&A
 
 <table><tr><td width="62%" valign="top">
 
-Production-oriented framework for specialized agents to **collaborate, reason, use tools and execute workflows**. Instead of asking one model to do everything, the system gives planning, delegation, tool use and evaluation clear roles.
+Production-oriented framework for specialized agents to **collaborate, reason, use tools and execute workflows**. It contains **3 independent agents**: Research, Coding and Task Planner. The core ReAct loop is built from scratch, with tool failures returned to the agent and a `max_steps` budget preventing runaway loops.
 
-The workflow is explicit: `PLAN → DELEGATE → TOOL → REASON → EVALUATE`.
+The workflow is explicit: `PLAN → DELEGATE → TOOL → REASON → EVALUATE`. The test suite documents **14 passing tests** without an API key.
 
 </td><td width="38%" valign="top">
 
 **Agents with a job to do**
-### `multi-agent`
-planning · delegation · tool use · evaluation
+### `3 agents · 14 tests`
+ReAct loop · sandboxed tools · mocked LLM tests · step limits
 
 </td></tr></table>
 
@@ -78,13 +78,13 @@ planning · delegation · tool use · evaluation
 
 <table><tr><td width="62%" valign="top">
 
-Multi-agent evaluation framework for conversational AI. It examines **safety, hallucination, healthcare risk, trust calibration and linguistic robustness**, giving model behavior a review layer instead of treating the first response as final.
+Multi-agent evaluation framework for conversational AI. A **five-agent consensus pipeline** examines safety, hallucination, healthcare risk, trust calibration and linguistic robustness. Weighted aggregation produces a **0–100 consensus score**, deployment verdict, grade, trust passport and incident report.
 
 </td><td width="38%" valign="top">
 
 **Models evaluating models**
-### `quality lift`
-safety · hallucination · healthcare risk · trust
+### `5-agent consensus`
+`0–100` score · APPROVED / CONDITIONAL / BLOCKED · no GPU required
 
 </td></tr></table>
 
@@ -97,13 +97,13 @@ safety · hallucination · healthcare risk · trust
 
 <table><tr><td width="62%" valign="top">
 
-Research assistant for discovering relevant papers, research gaps and publication opportunities. It combines **semantic and structured retrieval** so a researcher can move from a question to a useful evidence set faster.
+Research assistant for discovering relevant papers, research gaps and publication opportunities. It combines **FAISS semantic search**, a **NetworkX knowledge graph**, Reciprocal Rank Fusion and Mistral 7B through Ollama. A query can analyze up to **15 papers**, with first-query latency documented at **15–30 seconds** and cached follow-ups at **3–6 seconds**.
 
 </td><td width="38%" valign="top">
 
 **Find the signal in the literature**
-### `hybrid retrieval`
-paper discovery · research gaps · opportunity mapping
+### `15 papers · 2 retrievers`
+FAISS + graph traversal · RRF fusion · cited research answers
 
 </td></tr></table>
 
@@ -114,17 +114,18 @@ paper discovery · research gaps · opportunity mapping
 
 ### <img src="https://img.shields.io/badge/05-64748b?style=flat-square&label=&labelColor=64748b" alt="05" /> &nbsp;FraudForge <sub><i>real-time fraud detection and MLOps</i></sub>
 
-Production-grade fraud detection platform with **automated pipelines, experiment tracking, model versioning, monitoring and Dockerized deployment**. The project connects model development to repeatable operational workflows.
+Production-grade fraud detection platform with **automated pipelines, experiment tracking, model versioning, monitoring and Dockerized deployment**. Its documented benchmark covers **590K transactions**, reaches **0.9464 AUC ROC**, and reports **32ms P50**, **48ms P99** and **<50ms** inference latency.
 
 <p><a href="https://github.com/lavanya0505/FraudForge"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
 <img src="https://img.shields.io/badge/Python-1a1f28?style=flat-square&logo=python&logoColor=94a3b8" alt="Python" />
 <img src="https://img.shields.io/badge/Airflow-1a1f28?style=flat-square&logo=apacheairflow&logoColor=94a3b8" alt="Airflow" />
 <img src="https://img.shields.io/badge/MLflow-1a1f28?style=flat-square&logo=mlflow&logoColor=94a3b8" alt="MLflow" />
-<img src="https://img.shields.io/badge/Docker-1a1f28?style=flat-square&logo=docker&logoColor=94a3b8" alt="Docker" /></p>
+<img src="https://img.shields.io/badge/Docker-1a1f28?style=flat-square&logo=docker&logoColor=94a3b8" alt="Docker" />
+<img src="https://img.shields.io/badge/AUC_ROC_0.9464-1a1f28?style=flat-square&logo=chartdotjs&logoColor=94a3b8" alt="AUC ROC 0.9464" /></p>
 
 ### <img src="https://img.shields.io/badge/06-64748b?style=flat-square&label=&labelColor=64748b" alt="06" /> &nbsp;AWS IntelliVault <sub><i>cloud document intelligence</i></sub>
 
-Enterprise document intelligence using **AWS Bedrock, semantic search, vector embeddings and agentic RAG workflows**. It is the cloud-facing expression of the same principle: make knowledge useful, searchable and grounded.
+Enterprise document intelligence using **AWS Bedrock, semantic search, vector embeddings and agentic RAG workflows**. The stack connects cloud model inference to searchable enterprise context, with retrieval and generation treated as separate, inspectable stages.
 
 <p><a href="https://github.com/lavanya0505/AWS-IntelliVault"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github" alt="Source" /></a>
 <img src="https://img.shields.io/badge/AWS_Bedrock-1a1f28?style=flat-square&logo=amazonwebservices&logoColor=94a3b8" alt="AWS Bedrock" />
@@ -151,27 +152,34 @@ Enterprise document intelligence using **AWS Bedrock, semantic search, vector em
 <p align="center"><i>Reason, retrieve, act, evaluate, improve.</i></p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,fastapi,react,typescript,postgres,mongodb,docker,aws,githubactions&theme=dark" alt="Languages, frameworks and infrastructure" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,react,typescript,html,css,postgres,mongodb,redis,docker,aws,githubactions&theme=dark" alt="Languages, frameworks and infrastructure" />
 </p>
 
 | Layer | Tools I use | What it supports |
 |---|---|---|
-| **AI / LLM** | `LangChain` · `LangGraph` · `OpenAI` · `HuggingFace` · `Groq` | agents, RAG, embeddings, evaluation |
-| **Backend / Data** | `FastAPI` · `PostgreSQL` · `MongoDB` · `SQL` · `FAISS` · `Pinecone` · `NetworkX` | APIs, retrieval, persistence, knowledge graphs |
-| **Cloud / Infra** | `AWS` · `AWS Bedrock` · `Docker` · `GitHub Actions` | deployment, orchestration, automation |
-| **Frontend** | `React` · `TypeScript` · `Streamlit` | product surfaces and AI interfaces |
+| **Languages** | `Python` · `SQL` · `TypeScript` · `JavaScript` · `HTML` · `CSS` | product code, APIs, data and interfaces |
+| **AI / LLM** | `OpenAI` · `Groq` · `Mistral` · `Llama` · `AWS Bedrock` · `Ollama` | inference, agents, evaluation and local models |
+| **Agentic AI** | `LangChain` · `LangGraph` · `ReAct` · `MCP` · `Tool Calling` · `Multi-Agent Systems` | planning, delegation, memory and execution |
+| **RAG / Search** | `FAISS` · `Pinecone` · `pgvector` · `Embeddings` · `Hybrid Search` · `Graph RAG` · `RRF` | semantic retrieval, reranking and grounded answers |
+| **Backend / APIs** | `FastAPI` · `REST` · `WebSockets` · `Streamlit` · `Gradio` | services, dashboards, demos and real-time workflows |
+| **Data / NLP** | `PostgreSQL` · `MongoDB` · `Redis` · `NetworkX` · `spaCy` · `SentenceTransformers` · `PyMuPDF` · `Tesseract OCR` | persistence, caching, graphs, extraction and document processing |
+| **MLOps / Cloud** | `AWS` · `Docker` · `Apache Airflow` · `MLflow` · `Prometheus` · `GitHub Actions` | pipelines, experiment tracking, monitoring and delivery |
+| **Frontend** | `React` · `TypeScript` · `Streamlit` · `Gradio` · `Tailwind CSS` | product surfaces and AI interfaces |
 
 ## ◈  T H E  N U M B E R S  ◈
 
 <div align="center">
 
-| 1000+ | 40% | <300ms | 25% |
+| 1,115 | 590K | 0.9464 | 48ms |
 |---:|---:|---:|---:|
-| LeetCode | LLM accuracy improvement | retrieval latency | quality lift |
+| LeetCode solved | FraudForge transactions | FraudForge AUC ROC | FraudForge P99 |
+
+| 19 | 384-d | 5 | 14 |
+|---:|---:|---:|---:|
+| DocuPilot file extensions | DocuPilot embeddings | CERAI agents | OrchestrAI tests |
 
 </div>
 
-<img src="https://github-readme-stats.vercel.app/api?username=lavanya0505&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=lavanya0505&theme=radical&hide_border=true" alt="GitHub streak" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lavanya0505&theme=github_dark" alt="Profile summary" />
@@ -180,19 +188,27 @@ Enterprise document intelligence using **AWS Bedrock, semantic search, vector em
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lavanya0505&theme=github_dark&utcOffset=5.5" alt="Productive time" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lavanya0505&theme=github_dark" alt="Profile statistics" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lavanya0505&theme=github_dark" alt="Most committed language" />
 
 ## ◈  T H E  A R E N A  ◈
 
 Competitive programming taught me to care about complexity, edge cases and whether a solution actually works.
 
 <p align="center">
-<a href="https://leetcode.com/u/lavieee2206"><img src="https://img.shields.io/badge/LeetCode-1000%2B_PROBLEMS-FFA116?style=for-the-badge&logo=leetcode&logoColor=111827" alt="1000 plus LeetCode problems" /></a>
+<a href="https://leetcode.com/u/lavieee2206"><img src="https://img.shields.io/badge/LeetCode-1115_PROBLEMS-FFA116?style=for-the-badge&logo=leetcode&logoColor=111827" alt="1115 LeetCode problems" /></a>
 <img src="https://img.shields.io/badge/RMO_%26_INMO-QUALIFIER-22d3ee?style=for-the-badge" alt="RMO and INMO qualifier" />
 <img src="https://img.shields.io/badge/AI%2FML-DEAN'S_LIST-8b5cf6?style=for-the-badge" alt="Dean's list" />
 </p>
 
-<a href="https://leetcode.com/u/lavieee2206"><img src="https://leetcode-stats-card.vercel.app/api?username=lavieee2206&theme=dark&border=true&background=0D1117&border_color=FFA116" alt="LeetCode stats" /></a>
+<a href="https://leetcode.com/u/lavieee2206"><img src="https://leetcard.jacoblin.cool/lavieee2206?theme=dark&font=JetBrains%20Mono&ext=heatmap" alt="LeetCode stats: 259 easy, 602 medium, 254 hard" /></a>
+
+| LeetCode proof | Current value |
+|---|---:|
+| Total solved | **1,115** |
+| Easy | **259 / 962** |
+| Medium | **602 / 2,109** |
+| Hard | **254 / 971** |
+
+<p><i>Rank, contest rating and earned badges are intentionally linked to the live LeetCode profile because LeetCode blocks server-side scraping; the card above is the stable renderer.</i></p>
 
 ## ◈  A C H I E V E M E N T S  ◈
 
@@ -232,9 +248,16 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 ## ◈  G I T H U B  A C T I V I T Y  ◈
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lavanya0505&theme=react-dark&hide_border=true" alt="GitHub activity" />
-<img src="https://github-profile-trophy.vercel.app/?username=lavanya0505&theme=radical&no-frame=true&row=1&column=7" alt="GitHub trophies" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lavanya0505&theme=github_dark" alt="GitHub activity summary" />
 </div>
+
+<p align="center"><b>GitHub achievements</b></p>
+
+<p align="center">
+<a href="https://github.com/lavanya0505?tab=achievements"><img src="https://img.shields.io/badge/17_PUBLIC_REPOSITORIES-0d1117?style=for-the-badge&logo=github&logoColor=22d3ee" alt="17 public repositories" /></a>
+<a href="https://github.com/lavanya0505?tab=repositories"><img src="https://img.shields.io/badge/ACTIVE_AI%2FML_BUILDER-0d1117?style=for-the-badge&logo=github&logoColor=8b5cf6" alt="Active AI ML builder" /></a>
+<a href="https://github.com/lavanya0505?tab=achievements"><img src="https://img.shields.io/badge/ACHIEVEMENTS-LIVE_PROFILE-0d1117?style=for-the-badge&logo=github&logoColor=f472b6" alt="Live GitHub achievements" /></a>
+</p>
 
 ## ◈  C O N T R I B U T I O N  S N A K E  ◈
 
