@@ -245,7 +245,6 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 
 <p align="center">
 <a href="https://leetcode.com/u/lavieee2206"><img src="https://img.shields.io/badge/LeetCode-1115_PROBLEMS-FFA116?style=for-the-badge&logo=leetcode&logoColor=111827" alt="1115 LeetCode problems" /></a>
-<img src="https://img.shields.io/badge/RMO_%26_INMO-QUALIFIER-22d3ee?style=for-the-badge" alt="RMO and INMO qualifier" />
 <img src="https://img.shields.io/badge/AI%2FML-DEAN'S_LIST-8b5cf6?style=for-the-badge" alt="Dean's list" />
 </p>
 
@@ -263,7 +262,6 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 ## ◈  A C H I E V E M E N T S  ◈
 
 - 🏆 Top 10 — Microsoft Innoquest Hackathon 2024
-- 🧮 RMO & INMO Qualifier
 - 💻 1000+ LeetCode Problems
 - 🎓 Dean's List
 - 🎓 B.Tech CSE (AI/ML) · GPA 8.65
