@@ -16,12 +16,18 @@
 
 ## ◈  W H A T  I  B U I L D  ◈
 
-I like problems where intelligence has to be engineered, not just prompted.
+I design and ship **production-oriented AI/ML systems**: systems that retrieve evidence, use tools, measure their own failures, and remain observable after deployment.
 
-An agent should know when to use a tool.  
-A RAG system should know where its answer came from.  
-An evaluator should catch when an LLM is wrong.  
-And an AI product should survive outside a notebook.
+| Engineering surface | What I build |
+|---|---|
+| **Agentic systems** | ReAct loops, multi-agent orchestration, planning, delegation, tool calling, sandboxed execution and bounded retries |
+| **RAG and knowledge systems** | Document ingestion, OCR, chunking, local embeddings, vector search, hybrid retrieval, graph traversal, reranking and cited generation |
+| **LLM quality and safety** | Evaluation pipelines for hallucination, factual grounding, healthcare risk, trust calibration, linguistic robustness and deployment verdicts |
+| **ML platforms** | Fraud detection pipelines, drift monitoring, experiment tracking, model versioning, retraining workflows and low-latency inference |
+| **AI product engineering** | FastAPI services, React interfaces, Streamlit/Gradio applications, PostgreSQL-backed systems, Redis workers and Dockerized delivery |
+| **Engineering bar** | Reproducible experiments, testable orchestration, measurable latency, failure handling, source-level citations and production constraints |
+
+The goal is not to wrap an API call in a UI. It is to turn a model into a dependable system: **ingest → retrieve → reason → act → evaluate → improve**.
 
 <img src="./assets/pipeline-dark.svg#gh-dark-mode-only" width="100%" alt="AI pipeline" />
 <img src="./assets/pipeline-light.svg#gh-light-mode-only" width="100%" alt="AI pipeline" />
