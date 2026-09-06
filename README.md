@@ -273,8 +273,8 @@ Competitive programming taught me to care about complexity, edge cases and wheth
 <!-- RECENTLY_PUSHED_START -->
 | Project | What it is | Stack | Updated |
 |---|---|---|---|
-| [lavanya0505](https://github.com/lavanya0505/lavanya0505) | AI/ML Engineer building GenAI-powered multi-agent systems, RAG pipelines, and LLM applications in production. Skilled in Python, FastAPI, LangChain, LangGraph, React, SQL, MongoDB, Docker, and CI/CD workflow automation. Turning ideas into real, deployable AI products. | `Python` | 2026-09-05 |
 | [lavanya0505.github.io](https://github.com/lavanya0505/lavanya0505.github.io) | AI/ML project | `TypeScript` | 2026-09-05 |
+| [lavanya0505](https://github.com/lavanya0505/lavanya0505) | AI/ML Engineer building GenAI-powered multi-agent systems, RAG pipelines, and LLM applications in production. Skilled in Python, FastAPI, LangChain, LangGraph, React, SQL, MongoDB, Docker, and CI/CD workflow automation. Turning ideas into real, deployable AI products. | `Python` | 2026-09-05 |
 | [DocuPilot](https://github.com/lavanya0505/DocuPilot) | AI-powered document search and question answering with semantic retrieval, citations, and RAG-generated answers. | `Python` | 2026-09-04 |
 | [OrchestrAI](https://github.com/lavanya0505/OrchestrAI) | A production-oriented multi-agent AI orchestration framework built with Python, enabling specialized agents to collaborate, reason, use tools, and execute complex tasks autonomously. | `Python` | 2026-08-14 |
 | [FraudForge](https://github.com/lavanya0505/FraudForge) | A production-grade MLOps platform for real-time fraud detection featuring automated data pipelines, Apache Airflow orchestration, MLflow experiment tracking, model versioning, Dockerized deployment, monitoring, and scalable machine learning workflows. | `HTML` | 2026-07-29 |
